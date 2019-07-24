@@ -1,0 +1,67 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.grid  .imgBox{
+    width:300px;
+    margin:5px;
+    position: relative;
+}
+
+.imgBox .gridImage{
+    width: 100%;
+}
+
+.imgBox p {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    font-family: sans-serif;color: aliceblue;background-color:gray;background-repeat: repeat;
+}
+.imgBox h4{
+    display: none;
+}
+.imgBox:hover h4{
+    position: absolute;
+    top:60%;
+    display: block;
+    color: white;
+    background-color:black;
+    font-size: 50px;
+    font-family: 'Squada One', cursive;
+}
+#popup{
+    
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    width:60%;
+    height:100%;
+    position:absolute;
+    top:10%;
+    left:10%;
+margin:0 auto    ;
+    background-color:black;font-size: 20px;
+    font-family: 'Squada One', cursive;color: white;text-align: center;
+}
+#popup img{
+    display: block;
+    padding:5px;
+  margin:0 auto;
+    max-width:500px;
+}
+.banner{
+display: block;
+width:100%;
+height:100px;
+background-color:black;
+color:White;
+font-size:50px;text-align: center;font-family: 'Permanent Marker', cursive;
+padding-top: 50px; transition: all ease-in 1s;  
+}
+body{background-image:radial-gradient(white,black);
+}#logo{height:20px;width:20px;
+
+ 
+}
